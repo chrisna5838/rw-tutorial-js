@@ -12,13 +12,14 @@ import './index.css'
 const supabaseUrl = process.env.SUPABASE_URL
 const supabaseKey = process.env.SUPABASE_KEY
 
-const supabaseClient = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_KEY
-)
-
 console.log(supabaseUrl)
 console.log(supabaseKey)
+
+const supabaseClient = createClient(
+  supabaseUrl,
+  supabaseKey
+)
+
 console.log(supabaseClient)
 
 const App = () => (
