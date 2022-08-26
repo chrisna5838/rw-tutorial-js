@@ -9,8 +9,8 @@ import Routes from 'src/Routes'
 import './scaffold.css'
 import './index.css'
 
-const supabaseUrl = process.env.SUPABASE_URL
-const supabaseKey = process.env.SUPABASE_KEY
+const supabaseUrl = process.env.REACT_PUBLIC_SUPABASE_URL
+const supabaseKey = process.env.REACT_PUBLIC_SUPABASE_KEY
 
 console.log(supabaseUrl)
 console.log(supabaseKey)
